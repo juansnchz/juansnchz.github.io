@@ -1,9 +1,56 @@
-.mreaves {
+/*h1,h2,h3...h6 y links con Mr Eaves*/
+.mreavesh1 {
+
     font-family: mr-eaves-sans, sans-serif;
     font-style: italic;
     font-weight: 800;
-    font-size: 2.3em;
+    font-size: 3.3em;
+    color: #441259;
 }
+
+.mreavesh2 {
+
+    font-family: mr-eaves-sans, sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2em;
+    color: #6E268C;
+}
+
+.h3descripcion {
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3em;
+    color: #441259;
+}
+
+.mreavesh6 {
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.3em;
+    line-height: 1.1em;
+
+}
+
+.mreaveslink {
+    font-family: mr-eaves-sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1em;
+    color: #D9580D;
+}
+
+
+/*Product service design*/
+.psdesign{
+    color:#6E268C;
+}
+
+
+
+/*Estilos de navegación*/
 
 .navlink {
     font-family: mr-eaves-sans, sans-serif;
