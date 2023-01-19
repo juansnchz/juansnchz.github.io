@@ -42,13 +42,21 @@
     color: #D9580D;
 }
 
-
+/*Estilos de color para las secciones de Work*/
 /*Product service design*/
-.psdesign{
-    color:#6E268C;
+.psdesign {
+    color: #6E268C;
 }
 
+/*Strategic forecasting*/
+.strfc {
+    color: #C2232D;
+}
 
+/*Sport for development*/
+.s4d {
+    color: #E66912;
+}
 
 /*Estilos de navegación*/
 
