@@ -78,6 +78,28 @@
     font-size: 1.3em;
 }
 
+.mreavesp-bold {
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.mreavesp-italic {
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.mreavesp-caption {
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 1.3em;
+}
+
 /*Estilos de color para las secciones de Work*/
 /*Product service design*/
 .psdesign {
@@ -108,4 +130,45 @@
     font-family: blockhead-illust-ot, sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/*Estilos de imagen*/
+.intro-image-container {
+    position: relative;
+    display: inline-block;
+    
+
+
+}
+
+.intro-image {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.intro-image-overlay {
+    position: absolute;
+    bottom: 0%;
+    left: 2%;
+    width: 96%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.intro-image-container:hover .intro-image-overlay {
+    opacity: 1;
+}
+
+.intro-image-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    padding-left: 0%;
+    padding-right: 2%;
+    font-size: 0.8em;
+    text-overflow: ellipsis;
 }
