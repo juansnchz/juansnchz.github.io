@@ -40,7 +40,7 @@
     font-style: normal;
     font-size: 1.7em;
     line-height: 0.5em;
-    
+
 }
 
 .mreavesh5 {
@@ -67,6 +67,15 @@
     font-weight: 700;
     font-size: 1em;
     color: #D9580D;
+}
+
+
+.mreavesp {
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: gray;
+    font-size: 1.3em;
 }
 
 /*Estilos de color para las secciones de Work*/
