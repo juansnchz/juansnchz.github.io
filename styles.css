@@ -157,16 +157,16 @@
 }
 
 .caption {
+    font-family: mr-eaves-modern, sans-serif;
     padding-top: 2em;
     position: relative;
     top: ;
     left: 0;
     width: 100%;
-    background-color: rgba(110, 38, 140, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     color: gray;
     padding: 10px;
     box-sizing: border-box;
-    font-size: 1.2em;
     font-weight: 300;
     z-index: 1;
 }
